@@ -1,0 +1,27 @@
+{
+  "name": "@whlzs/shopify-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for Shopify Admin API — products, inventory, orders, collections, and raw GraphQL",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "shopify-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js"
+  },
+  "keywords": ["mcp", "shopify", "graphql", "admin-api", "ai-agent"],
+  "author": "WHLZS <hello@whlzs.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.26.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}
