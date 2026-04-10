@@ -1,4 +1,4 @@
-# @whlzs/shopify-mcp
+# @whlzs25/shopify-mcp
 
 MCP server for the Shopify Admin API. Gives AI agents (Claude Code, Cursor, etc.) direct access to a Shopify store's products, orders, inventory, collections, and raw GraphQL.
 

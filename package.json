@@ -1,5 +1,5 @@
 {
-  "name": "@whlzs/shopify-mcp",
+  "name": "@whlzs25/shopify-mcp",
   "version": "0.1.0",
   "description": "MCP server for Shopify Admin API — products, inventory, orders, collections, and raw GraphQL",
   "type": "module",
